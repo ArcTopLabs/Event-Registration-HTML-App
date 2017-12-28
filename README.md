@@ -18,6 +18,6 @@ ArcTop Labs : MasterDataNode Data Solution
 <p>Copy and Replace the ######access_token###### (available in your login) in arctoplabs.js file access_token variable</p>
             
 
-![alt text](https://github.com/ArcTopLabs/CURD-Operation-using-MasterDataNode/blob/master/screenshot/listing.png)
-![alt text](https://github.com/ArcTopLabs/CURD-Operation-using-MasterDataNode/blob/master/screenshot/addnew.png)
-![alt text](https://github.com/ArcTopLabs/CURD-Operation-using-MasterDataNode/blob/master/screenshot/update.png)
+![alt text](https://github.com/ArcTopLabs/RegistrationHTMLApp/blob/master/screenshot/registration.png)
+![alt text](https://github.com/ArcTopLabs/RegistrationHTMLApp/blob/master/screenshot/registrateredinfo.png)
+!

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Event Registration Form and Validation </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1> Event Registration App </h1>
+                    <p class="lead">Event Registration App's Data solution build on top of ArcTop Labs #DataSolution #MasterDataNode EcoSystem</p>
+
+
+
+                </div>
+            </div>
+            <div class="row">
+                <form action="" method="post" id="myform" role="form">
+                    <fieldset><legend class="text-center">Registration for ABC..... Event. <span class="req"><small> required fields*</small></span></legend>
+
+                        <div class="col-md-6 ">
+
+                            <div class="form-group">
+                                <label for="phonenumber"><span class="req">* </span> Phone Number: </label>
+                                <input required type="text" name="phonenumber" id="phone" class="form-control phone" maxlength="28" onkeyup="validatephone(this);" placeholder="not used for marketing"/> 
+                            </div>
+
+                            <div class="form-group"> 	 
+                                <label for="firstname"><span class="req">* </span> First name: </label>
+                                <input class="form-control" type="text" name="firstname" id = "fname" onkeyup = "Validate(this)" placeholder="First name ...." required /> 
+                                <div id="errFirst"></div>    
+                            </div>
+
+                            <div class="form-group">
+                                <label for="lastname"><span class="req">* </span> Last name: </label> 
+                                <input class="form-control" type="text" name="lastname" id = "lname" onkeyup = "Validate(this)" placeholder="Last name ...." required />  
+                                <div id="errLast"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="custom"><span class="req"></span> Custom : </label>
+                                <input name="custom" type="text" class="form-control inputpass" placeholder="Use this field as custom data"  id="custom" />
+                                <span id="confirmMessage" class="confirmMessage"></span>
+                            </div>
+
+
+                            <div class="form-group">
+                                <input class="btn btn-success" type="submit" name="submit_reg" id="submit_reg" value="Register">
+                            </div>
+
+
+                        </div>
+                        
+                         <div class="col-md-6 ">
+
+                           
+
+                            <div class="form-group">
+                                <label for="email"><span class="req">* </span> Email Address: </label> 
+                                <input class="form-control" required type="text" name="email" id = "email"  onchange="email_validate(this.value);" placeholder="Email Address ...." />   
+                                <div class="status" id="status"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="location"><span class="req">* </span> Location:  <small>City / Address</small> </label> 
+                                <input class="form-control" type="text" name="location" id = "location" placeholder="City, Address" required />  
+                                <div id="errLast"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="company"><span class="req">* </span> Company: </label>
+                                <input required name="company" type="text" class="form-control inputpass"  id="company" placeholder="Company Name"  /> 
+                            </div>
+                        </div><!-- ends col-6 --><!-- ends col-6 -->
+                    </fieldset>
+                </form><!-- ends register form -->
+
+                <div class="col-md-12">
+                    <h3 class="page-header">Registered Data </h3>
+                    <p>Click to view the registered data for this event <a href="registered_data.html" title="github" target="_blank">Click here >></a></a></p>
+
+                </div>
+
+            </div>
+        </div>
+        <link href="css/index.css" rel="stylesheet">
+        <script src="js/default.js"></script>
+        <script src="js/arctoplabs.js"></script>
+        <script>
+                        html5datatable.restData();
+        </script>
+
+    </body>
+</html>

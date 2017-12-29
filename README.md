@@ -19,5 +19,5 @@ ArcTop Labs : MasterDataNode Data Solution
             
 
 ![alt text](https://github.com/ArcTopLabs/RegistrationHTMLApp/blob/master/screenshot/registration.png)
-![alt text](https://github.com/ArcTopLabs/RegistrationHTMLApp/blob/master/screenshot/registrateredinfo.png)
+![alt text](https://github.com/ArcTopLabs/RegistrationHTMLApp/blob/master/screenshot/registeredinfo.png)
 !
